@@ -1,0 +1,14 @@
+*
+!.github
+!.github/workflows
+!.github/workflows/php.yml
+!app
+!app/code
+!app/code/**
+!app/etc
+!app/etc/config.php
+!.gitignore
+!composer.json
+!composer.lock
+!LICENSE
+!README.md

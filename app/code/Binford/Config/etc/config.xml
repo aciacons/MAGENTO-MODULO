@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+
+    <default>
+        <admin>
+            <security>
+                <password_is_forced>
+                    <![CDATA[0]]>
+                </password_is_forced>
+            </security>
+            <captcha>
+                <enable>
+                    <![CDATA[0]]>
+                </enable>
+            </captcha>
+        </admin>
+        <customer>
+            <captcha>
+                <enable>
+                    <![CDATA[0]]>
+                </enable>
+            </captcha>
+        </customer>
+        <design>
+            <head>
+                <demonotice>
+                    <![CDATA[1]]>
+                </demonotice>
+            </head>
+        </design>
+    </default>
+
+</config>
